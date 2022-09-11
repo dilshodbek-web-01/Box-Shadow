@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1250px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.wrapper {
+    width: 100%;
+    background-color: yellow;
+    height: 640px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card img {
+    width: 200px;
+    height: 200px;
+    transition: all 2s;
+}
+.card img:hover {
+    box-shadow: 210px 0px 0px 0px,
+    -210px 0px 0px 0px white,
+    0px 210px 0px 0px green,
+    0px -210px 0px 0px red,
+    210px 0px 0px 0px blue,
+    -210px -210px 0px 0px teal,
+    210px 210px 0px 0px pink,
+    210px -210px 0px 0px lime,
+    -210px 210px 0px 0px grey;
+}
